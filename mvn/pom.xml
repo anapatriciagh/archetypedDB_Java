@@ -46,6 +46,14 @@
       <artifactId>hibernate-core</artifactId>
       <version>5.4.4.Final</version>
     </dependency>
+
+    <!-- https://mvnrepository.com/artifact/nz.ac.waikato.cms.weka/weka-stable -->
+  <dependency>
+      <groupId>nz.ac.waikato.cms.weka</groupId>
+      <artifactId>weka-stable</artifactId>
+      <version>3.8.0</version>
+  </dependency>
+
   </dependencies>
 
   <build>
@@ -90,6 +98,7 @@
           <artifactId>maven-project-info-reports-plugin</artifactId>
           <version>3.0.0</version>
         </plugin>
+        
       </plugins>
     </pluginManagement>
   </build>
